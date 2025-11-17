@@ -15,5 +15,5 @@ elif [[ "$playerctlstatus" =~ "Playing" ]]; then
         echo "%{A1:playerctl pause:} $artist - $song%{A}"
     fi
 else
-    echo "%{A1:playerctl play:} $artist - $song%{A}"
+    echo "%{A1:playerctl play:} Paused: $artist - $song%{A}"
 fi
